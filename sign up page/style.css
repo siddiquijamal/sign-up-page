@@ -1,0 +1,111 @@
+body{
+    height: 80vh;
+    width: 450px; 
+    background-image: url(b3.jpg);
+    background-size: cover;
+}
+.main{
+    height: 60vh;
+    width: 400px;
+    border: 2px solid grey;
+    border-radius: 15px;
+    margin-top: 30px;
+    margin-left: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+   background-color:transparent;
+    backdrop-filter: blur(5px);
+   
+}
+.login a{
+    text-decoration: none;
+    
+}
+.head{
+   color: black;
+   font-family: italic;
+}
+ a{
+    text-decoration: none;
+    color: white;
+}
+.user{
+    margin-bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+    
+}
+.login{
+    border: 2px solid black;
+    width: 190px;
+    height: 30px;
+    text-align: center;
+    background-color:rgb(91, 134, 190);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.fac{
+    color: rgb(1, 11, 20);
+}
+
+.bottom{
+    width: 400px;
+    height: 70px;
+    background-color :transparent;
+    margin-top: 1px;
+    margin-left: 200px;
+    border-radius:15px ;
+    /* text-align: center; */
+    color:rgb(251, 246, 246);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid grey;
+
+  
+}
+.bot{
+    color:rgb(1, 11, 20);
+}
+
+.get{
+   margin-left: 350px;
+
+}
+ .imgs{
+    margin-top: 3px;
+    height:70px ;
+    width: 400px;
+    margin-left: 200px;
+    display: flex;
+    justify-content: space-evenly;
+ }
+    
+    
+    
+
+.img1{
+    border: 2px solid grey;
+    height:60px ;
+    width:180px ;
+   
+    background-image: url(gp1.png);
+    background-size: cover;
+    
+}
+.img2{
+    border: 2px solid grey;
+    height:60px ;
+    width:190px ;
+   
+    
+    background-image: url(gp2.png);
+    background-size: cover;
+}
